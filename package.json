@@ -1,11 +1,25 @@
 {
   "name": "ppt-decrypt",
   "version": "1.0.0",
+  "description": "Forked the idea of @sole to zip a complete folder into a zip file but now using promises",
+
   "main": "./lib/decrypt.js",
   "bin": {
     "ppt-decrypt": "./bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshay090/ppt_decrypt.git"
+  },
+  "keywords": [
+    "decrypt",
+    "pptx",
+    "npm",
+    "zip"
+  ],
+  "author": "Akshay Ashok",
   "dependencies": {
+    "rimraf": "^3.0.2",
     "unzipper": "^0.10.9",
     "zip-a-folder": "0.0.12"
   }

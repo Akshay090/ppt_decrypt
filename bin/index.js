@@ -4,4 +4,6 @@ const decrypt = require("../lib/decrypt");
 
 var arguments = process.argv.splice(2);
 let fileName = arguments[0]
+console.log(fileName);
+
 decrypt(fileName)
