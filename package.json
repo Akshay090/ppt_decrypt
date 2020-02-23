@@ -1,0 +1,12 @@
+{
+  "name": "ppt-decrypt",
+  "version": "1.0.0",
+  "main": "./lib/decrypt.js",
+  "bin": {
+    "ppt-decrypt": "./bin/index.js"
+  },
+  "dependencies": {
+    "unzipper": "^0.10.9",
+    "zip-a-folder": "0.0.12"
+  }
+}
