@@ -17,6 +17,7 @@
     "zip"
   ],
   "author": "Akshay Ashok",
+  "license": "MIT",
   "dependencies": {
     "cli-progress": "^3.6.0",
     "rimraf": "^3.0.2",
