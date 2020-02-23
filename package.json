@@ -1,8 +1,7 @@
 {
   "name": "ppt-decrypt",
   "version": "1.0.0",
-  "description": "Forked the idea of @sole to zip a complete folder into a zip file but now using promises",
-
+  "description": "NPM package to decrypt password protected pptx file",
   "main": "./lib/decrypt.js",
   "bin": {
     "ppt-decrypt": "./bin/index.js"
