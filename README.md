@@ -11,5 +11,5 @@ Remove password protection from pptx files, supported upto Office 2016 (16.0) ve
 
 To decrypt testFile.pptx
 
-`ppt-decrypt testFile `
+`ppt-decrypt testFile.pptx `
 
